@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>HOME</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="hal2.css">
+
+
+    <!-- icon link card -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <!-- Bootstrap Links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <!-- Work Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap" rel="stylesheet" />
+
+    <!-- Open Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet" />
+
+    <!-- lightslider jquery cdn css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.css"
+        integrity="sha512-+1GzNJIJQ0SwHimHEEDQ0jbyQuglxEdmQmKsu8KI7QkMPAnyDrL9TAnVyLPEttcTxlnLVzaQgxv2FpLCLtli0A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        #autoWidth5 {
+            height: 425px !important;
+        }
+
+        #autoWidth6 {
+            height: 425px !important;
+        }
+
+        #autoWidth7 {
+            height: 425px !important;
+        }
+    </style>
+    </style>
+
+</head>
+
+<body>
+    <!-- NAVBARRR -->
+
+    <nav class="navbar navbar-expand-lg bg-transparent">
+        <div class="container-fluid">
+            <img src="/gambar/bee1.png" alt="">
+            <a id="navbarDom" class="navbar-brand"></a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a id="navItem" class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#" style="color:#fad33d; font-weight: 500;">Movie</a>
+                    </li>
+
+
+                    <div class="dropdown">
+                        <button class="dropdown-toggle">Genre</button>
+                        <div class="dropdown-content">
+                            <a class="dropdown-item" href="miniProject.html">Horor</a>
+                            <a class="dropdown-item" href="miniProject.html">Thriller</a>
+                            <a class="dropdown-item" href="miniProject.html">Adventure</a>
+                            <a class="dropdown-item" href="miniProject.html">Kdrama</a>
+                            <a class="dropdown-item" href="miniProject.html">Anime</a>
+                            <a class="dropdown-item" href="miniProject.html">Kids</a>
+                        </div>
+                    </div>
+                </ul>
+
+
+                <ul class="nav justify-content-end">
+
+                    <!-- button toggle hide show -->
+                    <div id="elementToToggle">
+                        <p>
+                            <strong>
+                                Avatar the way of water just added <a href="#">Let's Go</a>
+                            </strong>
+
+                        </p>
+
+                    </div>
+                    <button id="toggleButton">Message</button>
+
+
+
+
+                    <form class="search-form">
+                        <input type="text" class="search-input" placeholder="Search...">
+                        <button type="submit" class="search-button">
+                            <svg height="24" width="24" viewBox="0 0 24 24">
+                                <path fill="#fff"
+                                    d="M22.65 21.35L16.5 15.2c1.4-1.8 2.25-4.05 2.25-6.45 0-5.25-4.25-9.5-9.5-9.5S0.75 3.5 0.75 8.75s4.25 9.5 9.5 9.5c2.4 0 4.65-0.9 6.45-2.25l6.15 6.15c0.45 0.45 1.2 0.45 1.65 0l0.85-0.85c0.45-0.45 0.45-1.2 0-1.65zM1.5 8.75c0-3.3 2.7-6 6-6s6 2.7 6 6c0 2.25-1.2 4.2-3 5.3v1.8c0 0.3-0.15 0.6-0.45 0.75l-2.25 1.5c-0.3 0.15-0.6 0.15-0.9 0l-2.25-1.5c-0.3-0.15-0.45-0.45-0.45-0.75v-1.8c-1.8-1.1-3-3.05-3-5.3z" />
+                            </svg>
+                        </button>
+                    </form>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- CAROUSEL = MOVIE TOP --------------------------------------------------------------------------------------------->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/gambar/3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <a href="https://www.netflix.com/id-en/" class="btn btn-warning"
+                        style="border-radius:20px;">Watch</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/gambar/4.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <a href="https://www.netflix.com/id-en/" class="btn btn-warning"
+                        style="border-radius:20px;">Watch</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/gambar/5.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <a href="https://www.netflix.com/id-en/" class="btn btn-warning"
+                        style="border-radius:20px;">Watch</a>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+
+    <br>
+
+    <!-- BREADCRUMB -->
+    <div class="container text-center">
+        <nav aria-label="breadcrumb" style="margin: 4%; font-weight: 500; font-size: 30px;">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#" style="color: black">Home</a></li>
+                <li style="color: #fad33d;" class="breadcrumb-item active" aria-current="page">Movie</li>
+            </ol>
+        </nav>
+    </div>
+<!-- random color -->
+
+<div>
+      <h3>Click for fun!</h3>
+    <button>Drama</button>
+    <button>Box Office</button>
+    <button>Romance</button>
+    <button>Action</button>
+    <button>Fantasy</button>
+    <button>Crime</button>
+    <button>Mistery</button>
+    <button>Horror</button>
+    <button>Thriller</button>
+    <button>Hero</button>
+    <button>Anime</button>
+    <button>Kids</button>
+    <button>KDrama</button>
+    <button>TV Series</button>
+</div>
+  
+
+
+
+
+      
+    
+    
+    <!-- JUST ADDED -->
+    <section id="added">
+        <h3 class="heading-justadded">Just added</h3>
+
+        <!-- slider -->
+        <ul id="autoWidth6" class="cs-hidden">
+            <!-- 1 -->
+            <li class="item-b">
+                <div class="added-box">
+                    <div class="added-b-img">
+                        <img src="https://static1.moviewebimages.com/wordpress/wp-content/uploads/2022/09/Screenshot_7.png"
+                            alt="" data-bs-toggle="modal" data-bs-target="#A1" class="link">
+                    </div>
+                    </a>
+
+                    <div class="add-b-text">
+                        <strong>Cocaine Bear</strong>
+                        <p><span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <!-- 2 -->
+            <li class="item-b">
+                <div class="added-box">
+                    <div class="added-b-img">
+
+                        <img src="https://th.bing.com/th/id/OIP.iJ0B4QHWW_LdN-wEoTAQLAHaLH?pid=ImgDet&rs=1" alt=""
+                            data-bs-toggle="modal" data-bs-target="#A2" class="link">
+                        </a>
+
+                    </div>
+                    <div class="add-b-text">
+                        <strong>The Dark Knight</strong>
+                        <p><span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <!-- 3 -->
+            <li class="item-b">
+                <div class="added-box">
+                    <div class="added-b-img">
+                        <img src="https://mamasgeeky.com/wp-content/uploads/2022/11/the-menu-movie-poster.jpg" alt=""
+                            data-bs-toggle="modal" data-bs-target="#A3" class="link">
+
+
+                    </div>
+                    <div class="add-b-text">
+                        <strong>The Menu</strong>
+                        <p><span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <!-- 4 -->
+            <li class="item-b">
+                <div class="added-box">
+                    <div class="added-b-img">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/5/54/Avatar_The_Way_of_Water_poster.jpg"
+                            alt="" data-bs-toggle="modal" data-bs-target="#A4" class="link">
+                        </a>
+
+
+                    </div>
+                    <div class="add-b-text">
+                        <strong>The Away of Water</strong>
+                        <p><span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <!-- 5 -->
+            <li class="item-b">
+                <div class="added-box">
+                    <div class="added-b-img">
+                        <img src="https://image.tmdb.org/t/p/original/55JWKCqNTn54016voGvig52ikjb.jpg" alt=""
+                            data-bs-toggle="modal" data-bs-target="#A5" class="link">
+                        </a>
+
+                    </div>
+                    <div class="add-b-text">
+                        <strong>Interestelar</strong>
+                        <p><span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <!-- 6 -->
+
+            <li class="item-b">
+                <div class="added-box">
+                    <div class="added-b-img">
+                        <img src="https://th.bing.com/th/id/OIP.et6le0FjtXuOS4NsmdmN6gHaLH?pid=ImgDet&rs=1" alt=""
+                            data-bs-toggle="modal" data-bs-target="#A6" class="link">
+                        </a>
+
+                    </div>
+                    <div class="add-b-text">
+                        <strong>John Wick 4</strong>
+                        <p><span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Top Picks -->
+    <section id="added">
+        <h3 class="heading-justadded">Top Picks</h3>
+
+
+        <!-- slider -->
+        <ul id="autoWidth6" class="cs-hidden">
+            <!-- 1 -->
+            <li class="item-b">
+                <div class="added-box">
+                    <div class="added-b-img">
+                        <img src="https://media-cache.cinematerial.com/p/500x/im7w85rx/the-last-of-us-movie-poster.jpg?v=1667405532"
+                            alt="" data-bs-toggle="modal" data-bs-target="#B1" class="link">
+                    </div>
+                    </a>
+
+                    <div class="add-b-text">
+                        <strong>The Last of Us</strong>
+                        <p><span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <!-- 2 -->
+            <li class="item-b">
+                <div class="added-box">
+                    <div class="added-b-img">
+
+                        <img src="https://th.bing.com/th/id/OIP.OWIoWvWXXTYce6jnzUc_EQHaLH?pid=ImgDet&rs=1" alt=""
+                            data-bs-toggle="modal" data-bs-target="#B2" class="link">
+                        </a>
+
+                    </div>
+                    <div class="add-b-text">
+                        <strong>The Mandalorian</strong>
+                        <p><span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <!-- 3 -->
+            <li class="item-b">
+                <div class="added-box">
+                    <div class="added-b-img">
+                        <img src="https://th.bing.com/th/id/OIP.I_I_E4FGGWU2bERtbYKPlQHaKF?pid=ImgDet&rs=1" alt=""
+                            data-bs-toggle="modal" data-bs-target="#B3" class="link">
+                        </a>
+
+                    </div>
+                    <div class="add-b-text">
+                        <strong>Game of Thrones</strong>
+                        <p><span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <!-- 4 -->
+            <li class="item-b">
+                <div class="added-box">
+                    <div class="added-b-img">
+                        <img src="https://th.bing.com/th/id/OIP.Q4hUmfLE3tobvHGreZIltgAAAA?pid=ImgDet&rs=1" alt=""
+                            data-bs-toggle="modal" data-bs-target="#B4" class="link">
+                        </a>
+
+
+                    </div>
+                    <div class="add-b-text">
+                        <strong>Wednesday</strong>
+                        <p><span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <!-- 5 -->
+            <li class="item-b">
+                <div class="added-box">
+                    <div class="added-b-img">
+                        <img src="https://image.tmdb.org/t/p/original/55JWKCqNTn54016voGvig52ikjb.jpg" alt=""
+                            data-bs-toggle="modal" data-bs-target="#B5" class="link">
+                        </a>
+
+                    </div>
+                    <div class="add-b-text">
+                        <strong>Interestelar</strong>
+                        <p><span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <!-- 6 -->
+            <li class="item-b">
+                <div class="added-box">
+                    <div class="added-b-img">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/87/SharperFilmPoster.jpg/220px-SharperFilmPoster.jpg"
+                            alt="" data-bs-toggle="modal" data-bs-target="#B6" class="link">
+                        </a>
+
+                    </div>
+                    <div class="add-b-text">
+                        <strong>Sharper</strong>
+                        <p><span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </p>
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+    </section>
+
+    <!-- Horor  -->
+    <section id="added">
+        <h3 class="heading-justadded" id="horor">Horor</h3>
+        <!-- slider -->
+        <ul id="autoWidth6" class="cs-hidden">
+            <!-- 1 -->
+            <li class="item-b">
+                <div class="added-box">
+                    <div class="added-b-img">
+                        <img src="https://th.bing.com/th/id/OIP.nDdMiEKImm_ZysQKpkrsvwHaLH?pid=ImgDet&rs=1" alt="">
+                    </div>
+                    </a>
+    
+                    <div class="add-b-text">
+                        <strong>The Last Excorcism II </strong>
+                        <p><span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <!-- 2 -->
+            <li class="item-b">
+                <div class="added-box">
+                    <div class="added-b-img">
+    
+                        <img src="https://tr.web.img4.acsta.net/pictures/19/03/11/09/01/4673291.jpg" alt="">
+                        </a>
+    
+                    </div>
+                    <div class="add-b-text">
+                        <strong>The Silence </strong>
+                        <p><span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <!-- 3 -->
+            <li class="item-b">
+                <div class="added-box">
+                    <div class="added-b-img">
+                        <img src="https://cdn.moviefone.com/image-assets/991814/cCTmZ93aBZ1FwHntiDpa2Lj92zs.jpg?d=360x540&q=60"
+                            alt="">
+                        </a>
+    
+                    </div>
+                    <div class="add-b-text">
+                        <strong>Re/member </strong>
+                        <p><span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <!-- 4 -->
+            <li class="item-b">
+                <div class="added-box">
+                    <div class="added-b-img">
+                        <img src="https://th.bing.com/th/id/OIP.cw1XTv11g9fgUeWWufz6qQHaK0?pid=ImgDet&rs=1" alt="">
+                        </a>
+    
+    
+                    </div>
+                    <div class="add-b-text">
+                        <strong>Makmum</strong>
+                        <p><span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <!-- 5 -->
+            <li class="item-b">
+                <div class="added-box">
+                    <div class="added-b-img">
+                        <img src="https://th.bing.com/th/id/R.7749439e94526c3d19d3c5fb32002c65?rik=PbE9izULspDUFA&riu=http%3a%2f%2fwww.impawards.com%2fintl%2fuk%2f2017%2fposters%2fritual_xxlg.jpg&ehk=JVET3irUQpTGTEdEFFBM4J%2b6X8gISMA01VJaRrWKgnU%3d&risl=&pid=ImgRaw&r=0"
+                            alt="">
+                        </a>
+    
+                    </div>
+                    <div class="add-b-text">
+                        <strong>The Ritual </strong>
+                        <p><span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <!-- 6 -->
+            <li class="item-b">
+                <div class="added-box">
+                    <div class="added-b-img">
+                        <img src="https://res.cloudinary.com/asianfilmfans/image/upload/v1599198740/posters/07b26875-9034-4785-b2f4-1dff355a7d52.jpg"
+                            alt="">
+                        </a>
+    
+                    </div>
+                    <div class="add-b-text">
+                        <strong>The Rope Curse 2 </strong>
+                        <p><span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </p>
+                    </div>
+                </div>
+            </li>
+    
+        </ul>
+    </section>
+
+    <!-- PAGINATION============================ -->
+<ul class="pagination">
+    <li><a href="#" id="prev">Prev</a></li>
+    <li><a href="#" id="page1" class="active">1</a></li>
+    <li><a href="#" id="page2">2</a></li>
+    <li><a href="#" id="page3">3</a></li>
+    <li><a href="#" id="next">Next</a></li>
+</ul>
+
+
+
+    <!-- footer ------------------------------------------------------------->
+    <footer class="p-3 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <!-- Coment n Ask -->
+                    <h2 class="display-4" style="padding: 20px;
+        box-sizing: border-box;
+        border: 5px solid #3d0000;
+        color: black;
+        font-size: 30px;
+        ">Feedback</h2>
+                    <!-- Chose Topic -->
+                    <select class="form-select" aria-label="Default select example"
+                        style="width: 30%; margin-bottom: 7px;">
+                        <option selected>Chose Topic</option>
+                        <option value="1">Suggest</option>
+                        <option value="2">Like</option>
+                        <option value="3">Dislike</option>
+
+                    </select>
+                    <h3>perkenalkan nama kamu!</h3>
+                    <form id="myForm">
+                        <label for="firstName">First Name:</label>
+                        <input type="text" id="firstName" name="firstName"><br><br>
+                    
+                        <label for="lastName">Email</label>
+                        <input type="text" id="email" name="email"><br><br>
+                    
+                        <button type="submit">Submit</button>
+                    </form>
+                    <br>
+
+
+                </div>
+                <br><br>
+                <div class="col-md-6" style="padding-left: 7%;">
+                    <h4> Copyright © 2023 Ajeng Fitrihandini</h4>
+                    <p>Mini Project</p>
+                    <input type="text" id="input" placeholder="Tulis disini !">
+                    <ul id="list"></ul>
+                    
+                    <p>123 Main Street<br> Anytown USA<br> 12345<br> Phone: (123) 456-7890<br> Email: info@company.com
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <!-- JS -->
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.4.js"
+        integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+
+    <!-- lightslider jquery cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"
+        integrity="sha512-Gfrxsz93rxFuB7KSYlln3wFqBaXUc1jtt3dGCp+2jTb563qYvnUBM/GP2ZUtRC27STN/zUamFtVFAIsRFoT6/w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="hal2.js"></script>
+    <script>
+        
+
+
+
+    </script>
+</body>
+
+</html>
